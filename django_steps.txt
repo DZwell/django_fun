@@ -5,4 +5,11 @@
 4. python3 manage.py createsuperuser //creates admin user
 5. python3 manage.py startapp <appName> //creates app
 6. Add view(views.py), wire url(urls.py) up to view
-
+7. To add templates:
+    1. Add app to list of installed_apps(settings.py)
+    2. Create templates folder inside app folder
+    3. Create html file with name of view
+7a. To add templates:
+    1. Create templates folder in root dir
+    2. Create html file with name of view
+    3. Copy line 13, paste inside templates.dirs, replace '...' with "templates".(settings.py)
