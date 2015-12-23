@@ -13,3 +13,7 @@
     1. Create templates folder in root dir
     2. Create html file with name of view
     3. Copy line 13, paste inside templates.dirs, replace '...' with "templates".(settings.py)
+8. Create model(models.py)
+9. python3 manage.py makemigrations (any time changes are made)
+10. python3 manage.py migrate (runs migrations)
+11. Register model in admin.py
