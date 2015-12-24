@@ -17,3 +17,6 @@
 9. python3 manage.py makemigrations (any time changes are made)
 10. python3 manage.py migrate (runs migrations)
 11. Register model in admin.py
+12. Model Forms
+    1. Create forms.py in app folder
+    2. import to admin
