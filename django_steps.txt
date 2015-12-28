@@ -21,3 +21,7 @@
     1. Create forms.py in app folder
     2. import to admin
 13. Form validation
+12. Static files
+    1. To be used in development not production
+    2. Still not sure what that means
+    3. python3 manage.py collectstatic
