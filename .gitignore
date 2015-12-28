@@ -1,0 +1,6 @@
+django_fun/db.sqlite3
+django_fun/django_fun/__pycache__/settings.cpython-34.pyc
+django_fun/django_fun/__pycache__/urls.cpython-34.pyc
+django_fun/newsletter/__pycache__/
+django_fun/newsletter/migrations/0001_initial.py
+django_fun/newsletter/migrations/__pycache__/
