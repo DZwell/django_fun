@@ -1,17 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-    <h1> {{ title }}</h1>
-    <!-- action specifies what url to send data to -->
-    <form method='POST' action=''>
-    {% csrf_token %}
-    {{ form.as_p }}
+{% extends "base.html" %}
 
-    <input type="submit" value="Sign Up"/>
+{% block head_title %}Welcome | {{ block.super}} {% endblock %}
 
-    </form>
-</body>
-</html>
+
+
+ {% block jumbotron %}
+ {{ block.super }}
+
+ Hi, I'm HomeStarRunner and this is a website.
+
+  {% endblock %}
+
+{% block content %}
+<h1> {{ title }}</h1> <!-- action specifies what url to send data to -->
+{{ user }}
+
+{{ request.user }}
+<form method='POST' action=''>
+{% csrf_token %}
+{{ form.as_p }}
+
+<input type="submit" value="Sign Up"/>
+
+</form>
+
+{% endblock %}
